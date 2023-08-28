@@ -133,3 +133,50 @@ output:
 
 
 
+
+
+
+
+solution
+
+
+lst = ["name", "age", "gender", "address", "marks"]
+
+tpl = ("kriss", 20, "male", "this is address", 90)
+
+dict = {}
+
+for i in range(5):
+    # key = lst[i]
+    # vl = tpl[i]
+    
+    # dict[key] = vl
+
+    dict[lst[i]] = tpl[i]
+
+print(dict)
+    
+
+
+
+# output:
+# {"name" : "kriss", "age" : 20, "gender" : "male", "address" : "this is address"}
+
+# dictin = {}
+
+# dictin["name"] = "this is name"  
+# dictin["age"] = 20
+# print(dictin)
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
