@@ -172,7 +172,23 @@ print(dict)
     
     
     
-    
+
+
+
+
+
+question ::::::::::::::::::::::
+
+
+lst = ["name", "age", "gender", "address", "marks"]
+
+tpl = ("kriss", 20, "male", "this is address", 90)
+
+
+
+output :
+
+{"name" : "kriss", "age" : 20, "gender" : "male", "marks" : 90}
 
 
 
