@@ -1,115 +1,133 @@
-# List : ordered, allow duplicatcy, mutabale
+# List : list is a collection of multipal data
+# []
 
-# Tuple : collecton of multipal data
+# list : ordedred, allow duplicasy, mutable (changes)
+
+
+
+
+
+# Tuple : collection of multipla data....
 # ()
+# tuple :  ordered, allow duplicasy, imutable
 
-# ordered, allow duplicasy, imutable
+# tpl = (12, 100, "hlo", 120.8, 100, 100)
+# print(tpl)
+# print(tpl, type(tpl))
 
-# tpl = (12, "hlo", 12.8, 90, 100)
+# print(tpl[3])
+
+# tpl.insert(1, 1200)
 
 # print(tpl)
-# print(type(tpl))
-
-# print(tpl[2])
-# print(tpl[2 : 4])
 
 
-# Type casting : 
+
+# # type casting  
 
 # a = 10
 # print(a, type(a))
 
-# b = str(a)
-# print(b, type(b))
-
-# c = float(a)
-# print(c, type(c))
-
-# list()
-# tuple()
-# set()
-# dict()
-
-# tpl = (12, 3, 100, 50)
-# lt = list(tpl)
-
-# print(lt)
-
-
-# tpl = (12, 20, 100, 30, 90)
+# tpl = (12, 100, "hlo", 120.8, 100, 100)
 # print(tpl)
-# # tpl.insert(1, 2000)
+# print(type(tpl))
+
 # lst = list(tpl)
 # print(lst)
+# print(type(lst))
 
-# lst.append(2000)
+# lst.append(1200)
 
 # print(lst)
 
-# tpl = tuple(lst)
+# tl = tuple(lst)
 
-# print(tpl)
+# print(tl)
+# print(type(tl))
 
 
-# set : collection of multipal data
+
+
+
+
+
+
+# Set : its also a collcetion of multipal data
 # {}
-# unordered, do not allow duplicasy, mutable
 
-# st = {100, 20, "hlo", 50, 100, 90}
+# set : unordered, do not allow duplicasty, mutable
+
+
+# st = {12, 100, "hlo", "ok", 100, "hlo", 90, 50, 12}
+
 # print(st)
 # print(type(st))
 
-# st.add(2000)
+# adding new data
+
+# st.add(1200)
 
 # st.pop()
-# st.remove(100)
+
+# st.remove(12)
+
 # print(st)
 
 
-# Dictionry : ordered, mutable, do not allow duplicasy
-# {key : value, key : value}
-#   paries
 
 
 
-# dic = {"name" : "moris",
-#         "age" : 20, 
-#         "marks": 100
-#     }
-# print(dic)
-# print(type(dic))
 
-# print(dic['name'])
+# dictionry : 
+# {}
+# key : value pairs 
 
-# print(dic.keys())
+# dict : ordered, do not allow duplicasy, mutable
 
-# print(dic.values())
-# dic = {"name" : "moris",
-#         "age" : 20, 
-#         "marks": 100
-#     }
-    
-# dic['phone_number'] = 982381623  
-# dic["address"] = "mohali"
-    
 
-# # dic.remove('name').
-# dic.pop('name')
-# print(dic)
+# dictty = {
+#     "name" : "moris",
+#     "age" : 20,
+#     "gender" : "male"
+# }
+
+
+# print(dictty)
+# print(type(dictty))
+
+# print(dictty['name'])
 
 
 
-dic = {
-    "name" : {
-        "first_name" : "kriss",
-        "second_name" : "moris"
-    },
-    "age" : 20
-}
+# print(dictty.keys())
+# print(dictty.values())
 
-# print(dic)
+# dictty = {
+#     "name" : "moris",
+#     "age" : 20,
+#     "gender" : "male"
+# }
 
-print(dic['name']["second_name"])
+# dictty["marks"] = 90
+
+# dictty.pop("age")
+
+# print(dictty)
+
+
+lst = ["name", "age", "gender", "address"]
+
+tpl = ("kriss", 20, "male", "this is address")
+
+
+
+output:
+{"name" : "kriss", "age" : 20, "gender" : "male", "address" : "this is address"}
+
+
+
+
+
 
 
 
