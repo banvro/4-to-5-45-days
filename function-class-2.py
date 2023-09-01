@@ -80,3 +80,33 @@
 # print(sd)
 
 
+# lst = [10, 10, 10, 20, 90, 90, 80, 10, 40]
+
+
+# ***************** calculater ************
+
+
+# inptu = int(input("ENter how many numbers you want to enter : "))
+
+# inpts = [int(input(f"Enter number {i + 1} : ")) for i in range(inptu)]
+
+
+# print(inpts)
+
+
+# enter what you want:
+#     1) adation
+#     2) substraction
+#     3) multiplicatin
+#     4) devsion
+    
+# choice =
+
+
+
+
+
+
+
+
+
